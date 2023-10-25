@@ -1,0 +1,22 @@
+{
+    "name": "simplemehanizm/array",
+    "description": "Set of utility functions for array operations",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SimpleMehanizm\\Array\\": "src/"
+        },
+        "files": [
+            "src/Functions/readValue.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "N.B"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
+}

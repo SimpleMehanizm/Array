@@ -6,7 +6,6 @@ namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
-use function SimpleMehanizm\Array\Functions\readValue;
 use function SimpleMehanizm\Array\Functions\arrayKeyExists;
 
 class ArrayKeyExistsTest extends TestCase

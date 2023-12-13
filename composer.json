@@ -3,12 +3,14 @@
     "description": "Set of utility functions for array operations",
     "type": "library",
     "license": "MIT",
+    "version": "1.0",
     "autoload": {
         "psr-4": {
             "SimpleMehanizm\\Array\\": "src/"
         },
         "files": [
-            "src/Functions/readValue.php"
+            "src/Functions/readValue.php",
+            "src/Functions/arrayKeyExists.php"
         ]
     },
     "authors": [
